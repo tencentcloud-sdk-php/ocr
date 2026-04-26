@@ -20,26 +20,26 @@ use TencentCloud\Common\AbstractModel;
 /**
  * 坐标
  *
- * @method integer getX() 获取横坐标
- * @method void setX(integer $X) 设置横坐标
- * @method integer getY() 获取纵坐标
- * @method void setY(integer $Y) 设置纵坐标
+ * @method integer getX() 获取<p>横坐标。</p>
+ * @method void setX(integer $X) 设置<p>横坐标。</p>
+ * @method integer getY() 获取<p>纵坐标。</p>
+ * @method void setY(integer $Y) 设置<p>纵坐标。</p>
  */
 class Coord extends AbstractModel
 {
     /**
-     * @var integer 横坐标
+     * @var integer <p>横坐标。</p>
      */
     public $X;
 
     /**
-     * @var integer 纵坐标
+     * @var integer <p>纵坐标。</p>
      */
     public $Y;
 
     /**
-     * @param integer $X 横坐标
-     * @param integer $Y 纵坐标
+     * @param integer $X <p>横坐标。</p>
+     * @param integer $Y <p>纵坐标。</p>
      */
     function __construct()
     {
